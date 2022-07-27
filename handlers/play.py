@@ -155,7 +155,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await fallen.edit(
-                "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙʏ🤦🏻‍♂️"
+                "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙᴜ 🖤"
             )
         await fallen.edit("CAACAgUAAx0CYhdEbwACTFZi4YhZdBmfiS-Vq-kmhGQRzZESAAONAwACPctQVUPe1lBjtLIaHgQ")
         query = message.text.split(None, 1)[1]
